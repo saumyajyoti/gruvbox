@@ -8,11 +8,6 @@ Designed as a bright theme with pastel 'retro groove' colors and light/dark mode
    [jellybeans]: https://github.com/nanotech/jellybeans.vim
    [solarized]: http://ethanschoonover.com/solarized
 
-This is a community fork of gruvbox, created to merge recent pull requests and fix recent issues.
-
-If you would like to help gruvbox community edition, please consider becoming a maintainer.
-See [this issue](https://github.com/gruvbox-community/gruvbox/issues/93) for more details.
-
 Attention
 ---------
 
