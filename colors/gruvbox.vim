@@ -508,6 +508,7 @@ call s:HL('GruvboxBg4', s:gb.bg4)
 
 call s:HL('GruvboxRed', s:gb.red)
 call s:HL('GruvboxRedBold', s:gb.red, s:none, s:bold)
+call s:HL('GruvboxRedItalic', s:gb.red, s:none, s:italic)
 call s:HL('GruvboxGreen', s:gb.green)
 call s:HL('GruvboxGreenBold', s:gb.green, s:none, s:bold)
 call s:HL('GruvboxYellow', s:gb.yellow)
@@ -673,13 +674,13 @@ call s:HL('Error', s:gb.red, s:vim_bg, s:bold . s:inverse)
 " Generic statement
 hi! link Statement GruvboxRed
 " if, then, else, endif, swicth, etc.
-hi! link Conditional GruvboxRed
+hi! link Conditional GruvboxRedItalic
 " for, do, while, etc.
-hi! link Repeat GruvboxRed
+hi! link Repeat GruvboxRedItalic
 " case, default, etc.
-hi! link Label GruvboxRed
+hi! link Label GruvboxRedItalic
 " try, catch, throw
-hi! link Exception GruvboxRed
+hi! link Exception GruvboxRedItalic
 " sizeof, "+", "*", etc.
 hi! link Operator GruvboxFg1
 " Any other keyword
